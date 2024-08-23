@@ -1,0 +1,16 @@
+/* hover pseudo class */
+div{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 25px 0;
+    background: #e5383b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div:hover{
+    /* background-color: #ba181b;
+    font-size: 40px; */
+    background-image: url(../img/eyes.jpg);
+}

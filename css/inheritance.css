@@ -1,0 +1,12 @@
+body{
+    margin: 10px;
+    text-align: center;
+    line-height: 22px;
+    font-variant: small-caps;
+    word-spacing: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family:  monospace;
+    letter-spacing: 2px;
+
+}

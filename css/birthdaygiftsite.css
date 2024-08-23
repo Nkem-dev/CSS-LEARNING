@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#a2d2ff, pink);
+    
+}
+
+.birth-card{
+    /* text-align: center; */
+   
+    /* justify-content: center; */
+    font-family: "Happy Monkey", cursive;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0px 0px 1px black;
+}
+
+#Nick{
+    width: 11%;
+    height: 27vh;
+    border-radius: 50%;
+    border: 6px solid #Efb0c9;
+
+}
+
+#Age-text{
+    background: #EFB0C9;
+    border: none;
+    padding: 7px 8px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    
+}
+
+#last-text{
+    margin: 0;
+    background: #EFB0C9;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.gift-cover{
+    font-family: "Happy Monkey", cursive;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.gift-text{
+    margin-bottom: 10px;
+}
+
+.hover-gift{
+    margin-top: 0;
+}
+
+
+#main-gift{
+    width: 400px;
+    height: 100vh;
+    background-image: url(../img/gift\ cover.jpeg);
+    background-size: cover;
+    border: 6px solid #ffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#main-gift:hover{
+    background-image: url(../img/happy-birthday-cake.gif);
+    
+}
+
+
+
+#hot-gift{
+    width: 400px;
+    height: 100vh;
+    background-image: url(../img/gift\ cover.jpeg);
+    background-size: cover;
+    border: 6px solid #ffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#hot-gift:hover{
+    background-image: url(../img/hot.gif);
+
+}
+
+
+#genius-gift{
+    width: 400px;
+    height: 100vh;
+    background-image: url(../img/gift\ cover.jpeg);
+    background-size: cover;
+    border: 6px solid #ffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#genius-gift:hover{
+    background-image: url(../img/genius.gif);
+
+}
+
+
+
+#badass-gift{
+    width: 400px;
+    height: 100vh;
+    background-image: url(../img/gift\ cover.jpeg);
+    background-size: cover;
+    border: 6px solid #ffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#badass-gift:hover{
+    background-image: url(../img/badass.gif);
+
+}
+
+#cheers-gift{
+    width: 400px;
+    height: 200px;
+    background-image: url(../img/gift\ cover.jpeg);
+    background-size: cover;
+    border: 6px solid #ffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#cheers-gift:hover{
+    background-image: url(../img/cheers.gif);
+
+}
+
+footer{
+    width: 400px;
+    font-style: italic;
+    color: #ffff;
+    margin: 40px auto 20px;
+    margin-left: 230px;
+}
+
+a{
+    color: #ffff;
+}
+

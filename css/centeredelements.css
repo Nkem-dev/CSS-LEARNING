@@ -1,0 +1,10 @@
+img {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* an element can only be centered if it is in 1. display of block 
+2. it must have a width
+3. margin-left and margin-right: auto means take up all the available space at the left and the right will center it*/

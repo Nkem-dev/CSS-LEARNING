@@ -1,0 +1,31 @@
+.red-circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background: #BC0020;
+    /* margin: 40px 0px 0px 100px; */
+    /* Top, right, bottom, left */
+
+    /* margin-top: 40px;
+    margin-bottom: 40px;
+
+    margin-right: auto;
+    margin-left: auto; */
+
+    margin: 40px auto;
+    /* 40px is top/bottom and auto is right/left */
+}
+
+/* if you have the same value for all your margins just make it margin:10px instead of calling them differently  */
+
+/* but in a case whereby the margin values are different you will type it as margin: 10px 20px 30px 40px whereas the first value is for margin-top, the second one is right, the third one is bottom and the last one is left. */
+
+/* if the top and bottom have the same value and right and left habe the same value but different from top and bottom like; 
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: auto;
+margin-left: auto;
+
+you can actually type it as;
+margin: 10px auto;
+10px is top and bottom and it controls the vertical axis while auto is right and left and it controls the horizontal axis*/

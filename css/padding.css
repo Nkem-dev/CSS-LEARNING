@@ -1,0 +1,49 @@
+.card{
+    color: #222222;
+    background: lightgray;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 4px solid #000;
+    border-radius: 20px;
+
+    /* padding: 20px; */
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+button{
+    width: 120px;
+    background: #ffff;
+    color: #0f1419;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px solid #cfd9de;
+    padding: 8.5px;
+}
+
+/* margin adds space on the outside of our div while padding adds space on the inside inbetween the content and the edges of the container or the div.*/
+
+/* padding:20px is the same thing as writing;
+padding-top:20px 
+padding-bottom:20px
+padding-left:20px
+padding-right:20px
+
+you can only use padding:20px if all the values are the same */
+
+
+/* border and border radius */
+
+/* the box model
+1. Margin
+2. Border
+3. Padding
+4. Content */
+

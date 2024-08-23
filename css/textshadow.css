@@ -1,0 +1,22 @@
+body{
+    letter-spacing: 4px;
+    background: #b7111b;
+    color: #fafbfa;
+    text-align: center;
+    font-family: 'kanit' sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    text-shadow: 5px -5px 5px black;
+    /* text shadow must contain 3 values. the two other values dictate the offset of the shadow on the horizontal and vertical line. while black is the color of the shadow.   */
+
+    /* the first value dictates the shadow for the left and right hand side while the second value dictates the shadow for the top and bottom. 
+    
+    -5px = pushed left
+    5px = pushed right
+    10px = pushed down
+    -10px = pushed up
+    
+    the 3rd value is for blur*/
+}

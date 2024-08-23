@@ -1,0 +1,9 @@
+@font-face {
+    font-family: corleone;
+    src: url("corleone.ttf");
+}
+
+h1{
+    font-family: corleone;
+
+}

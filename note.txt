@@ -1,0 +1,41 @@
+css means cascading style sheet
+
+css syntex
+css works by selecting a ceratin element on the page ie html element and styling it how you want
+
+eg body{  (selector)
+    color:red; (property)
+}
+
+background sets the color of the background of the web page.
+
+color sets the color of the font
+
+font-size sets the size of the font
+
+font-weight determines the thickness of the font
+
+text-align could be center, left or right. it is for aligning your text.
+
+margin-top adds margin or spacing to the top
+
+#8B4513 is a hex color code.
+
+pixel is the smallest unit of space that our screen can render
+
+inline vs block elements
+display: block stacks on top
+
+divs are containers used to wrap other elements
+
+classes are identifiers for the element that they are assigned to.
+
+
+margin is the space around an element
+
+when you set the body margin to 0. it will remove any spacing around the item you created on your webpage
+
+margin consists of margin-left, margin-right, margin-top and margin-bottom
+
+
+

@@ -1,0 +1,35 @@
+.container{
+    border: 8px solid #016a26;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* align items moves the items to top or to bottom */
+    /* align-items consists of start, center, end */
+    /* justify-content consists of start, center, end, space-around, space-evenly and space-between */
+
+    /* flexbox in the cross axis actually stretches the content. the reason it didn't stretch before was because the height overolled it. */
+
+    /* Align items by default has the value of stretch.But when you change it to start, it won't be stretched anymore. */
+
+    /* Align items and justify content works inside of a flexbox. */
+
+    /* flex-direction by default is in a row but you can change it into a column by doing flex-direction: column; */
+
+    /* left to right (main axis)  is being controlled by justify content (Horizontal). meanwhile, top to bottom (cross axis) is being controlled by align items (vertical)*/
+
+    /* but when you put flex direction: column; it will change. the main axis that is being controlled by justify content will now be at the vertical axis that is top to bottom while the cross axis controlled by the align items will be at the horizontal axis that is left to right. */
+
+
+}
+
+.item{
+    width: 50px;
+    /* height: 50px; */
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+    background: linear-gradient(#14463d, #016a26);
+}

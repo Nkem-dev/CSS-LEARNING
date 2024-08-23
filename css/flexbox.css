@@ -1,0 +1,18 @@
+.nav-wrapper{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.item{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* flexbox comes in when you want a horizontal layout instead of a vertical layout most especially when creating navigation bars. in order to achieve this, you will first wrap the elements in a container cause a flexbox works with a container and its children elements in it. */
+
+/* justify content consists of start, space-around, space-between, center */
