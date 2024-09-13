@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#main-section{
+    width: 100%;
+    height: 70vh;
+    border: 1px solid transparent;
+    background-image: url(../img/Awka.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 5px; */
+    text-align: center;
+    color: #F1FAEE; 
+}
+
+.texts{
+    width: 35%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-text{
+    background-color: #457890;
+}
+
+#mini-text{
+    background-color: #1D3537;
+
+}
+
+#Top-title{
+    margin-top: 20px;
+    color: #1D3537;
+}
+
+.image{
+    /* width: 35%; */
+    height: 70px;
+    border-radius: 50%;
+}
+
+#second-section{
+    width: 100%;
+    height: 70vh;
+    border: 1px solid transparent;
+    background-color: #F1FAEE;
+    text-align: center;
+
+    
+}
+
+.hotels{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.top h5{
+    font-size: 13px;
+    margin: 10px 0;
+
+}
+
+.top p{
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+#card-section{
+    width: 100%;
+    height: 90vh;
+    border: 1px solid transparent;
+    background-color: #ffff;
+    
+}
+
+.card-contents{
+    width: 40%;
+    height: 65vh;
+    display: flex;
+    gap: 10px;
+    border: 1px solid transparent;
+    margin: 40px auto;
+    background-color: #ABDADC;
+    border-radius: 9px;
+    box-shadow: 0 4px 0px #1D3537;
+    
+}
+
+.card-image{
+    width: 100%;
+    height: 55vh;
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+.card-texts{
+    font-size: 10px;
+    margin-top: 30px;
+    /* text-align: center; */
+    color: #1D3537;
+}
+
+#guide-text{
+    text-align: center;
+}
+
+#Place{
+    font-size: 10px;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#per{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+}
+   

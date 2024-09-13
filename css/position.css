@@ -1,0 +1,37 @@
+/* .item-1{ */
+    /* position: fixed;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0;
+    width: 100%;
+    z-index: 1; */
+    /* it will layer the item underneath other elements. opacity will blur the item */
+    
+/* } */
+
+/* there are 5 position attributes
+1. Absolute
+2. Relative
+3. Fixed
+4. Sticky
+5. Static */
+
+/* an element that is given a position of absolute are removed from the document and no space is created for them and other elements will behave as if that particular element dosen't exist. */
+
+/* relative positions an element relative to the parent. They remain in the normal flow of the document. */
+
+/* static elements don't have access to the top, right, bottom or left properties nor do they have access to z-index */
+
+/* elements with the position of fixed are removed from the document. it acts like the absolute position. The difference is that when you start scrolling the element in that position of fixed dosen't move. It remains in that same position. A fixed element is always positioned relative to the html element. That is the second reason that makes it different from the sbsolute position.
+
+item-1{
+ position: fixed;
+ top:0px;
+ left: 0px;
+ border-radius:0;
+ width: 100%;
+ z-index: 1;
+
+}*/
+
+/* Sticky position works similar to both relative and fixed. Sticky only works when you give the top property a value. The value you put in the top property signifies the space between the element.*/

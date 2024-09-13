@@ -1,0 +1,43 @@
+body{
+    
+    background-color: plum;
+    font-family: Arial, sans-serif;  
+}
+
+
+
+nav{
+    text-align: center;
+    
+}
+
+nav a{
+    
+    color: black;
+    
+    
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+div{
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+img{
+    width: 20%;
+    height: 50vh;
+}
+

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    
+}
+
+.stats-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    border: 1px solid black;
+    
+}
+
+.girls-code{
+    height: 80vh;
+}

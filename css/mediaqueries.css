@@ -1,0 +1,38 @@
+.box_1{
+    background-color: purple;
+    color: white;
+    padding: 1rem;
+}
+
+.box_2{
+    background-color: gold;
+    color: black;
+    padding: 1rem;
+}
+
+/* desktop view */
+@media screen and (min-width: 780px) {
+    /* if this condition is true then te styling inside it will change the content on the browser. But if it is not true, it won't take any changes. The browser will ignore it */
+
+    .container{
+        display: flex;
+    }
+
+    .box_1 {
+        background-color: aqua;
+
+    }
+}
+
+/* you can use many expressions in the bracket like max-height, min-width, orientation etc */
+
+/* css runs top to bottom that is why we always write media queries at the bottom */
+
+
+
+/* there are 4 media types.
+1. Screen (that is for desktop screen and mobile screen)
+2. Print for printers
+3. Speech for screen readers
+4. All for all media type devices
+most of the time screen and all are the two main madia types that are being used. If you don't write any media type , CSS by default uses all */
